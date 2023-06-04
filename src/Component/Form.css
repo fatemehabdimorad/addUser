@@ -1,0 +1,42 @@
+.card {
+  background: #ccc;
+  padding: 10rem;
+}
+.form-control {
+  margin: 0.5rem 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #444;
+  border-radius: 3px;
+  border: #eb5c6d 1px solid;
+  background-color: #fae9f4;
+  padding: 2rem;
+}
+
+.form-control label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.form-control input {
+  display: block;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  font: inherit;
+  line-height: 1.5rem;
+  padding: 0 0.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.form-control input:focus {
+  outline: none;
+  background: #fad0ec;
+  border-color: #eb5c6d;
+}
+.form-control.invalid input {
+  border-color: bisque;
+  background-color: antiquewhite;
+}
+.form-control.invalid label {
+  color: red;
+}
